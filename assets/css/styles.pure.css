@@ -43,7 +43,7 @@
 }
 
 .what-you-will-learn-objectives-list li:after {
-  content: "";
+  content: ' ';
   position: absolute;
   left: -30px;
   top: 15px;
@@ -384,7 +384,7 @@
 
 .featured-skills-background-wrapper.slick-current
   > .featured-skills-reviewer:after {
-  content: "";
+  content: ' ';
   position: absolute;
   display: block;
   width: 80%;
@@ -1007,7 +1007,7 @@
 }
 
 .contact-banner:after {
-  content: "";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -1197,7 +1197,7 @@
 
 .blog-box-text:after {
   position: absolute;
-  content: "";
+  content: ' ';
   left: 0;
   right: 0;
   bottom: 0;
@@ -1228,7 +1228,7 @@
 }
 
 .blog-inner-banner:after {
-  content: "";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -1246,7 +1246,7 @@
 }
 
 .blog-left-img:after {
-  content: "";
+  content: ' ';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -1658,7 +1658,7 @@
 }
 
 .work-experience:after {
-  content: "";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -1679,7 +1679,7 @@
 }
 
 .skills:after {
-  content: "";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -1808,7 +1808,7 @@
 }
 
 .statistics-box .statistics-icon:after {
-  content: "";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -1939,7 +1939,7 @@
 }
 
 .home-blog-box:after {
-  content: "";
+  content: ' ';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -2251,7 +2251,7 @@
 }
 
 /* .portfolio-two-education:after {
-  content: "";
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
@@ -2480,7 +2480,7 @@ svg.radial-progress text {
 }
 
 .portfolio-three-work:after {
-  content: '';
+  content: ' ';
   position: absolute;
   top: 0;
   left: 0;
