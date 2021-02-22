@@ -217,9 +217,9 @@
                                 Learn the fundamentals of data science, and help grow your career.
                             </p>
                              
-                            <div class="get-course-btn-wrap mt-5 mb-4">
+                            <div class="get-course-btn-wrap">
                                 <a href="#book-a-session-section" class="get-course-btn">
-                                    <button class="start-course-btn gradient-color">Start Course</button>
+                                    <button class="btn-aboutus gradient-color">Start Course</button>
                                 </a>
                             </div>
                         </div>
@@ -934,14 +934,98 @@
             
         </section>    
 
-        <section class="start-course mt-5 pt-5 mb-5 pb-5">
+        <section class="book-a-session-section" id="book-a-session-section">
             <div class="container">
-                <div class="text-center">
-                    <h3 class="start-course-title">Start today and get certified in Fundamentals of Data Science</h3>
-                    <div class="get-course-btn-wrap mt-5 mb-4">
-                        <a href="#book-a-session-section" class="get-course-btn">
-                            <button class="start-course-btn gradient-color">Start Course</button>
-                        </a>
+                <h2 class="webinar-section-title text-center py-4" data-aos="fade-down">Select A Start Date</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="book-session-wrap">
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <div class="responsive-calendar" data-aos="fade-left">
+                                        <div class="controls">
+                                            <a class="pull-left" data-go="prev">
+                                                <div class="btn btn-primary">Prev</div>
+                                            </a>
+                                            <h4>
+                                                <span data-head-year></span>
+                                                <span data-head-month></span>
+                                            </h4>
+                                            <a class="pull-right" data-go="next">
+                                                <div class="btn btn-primary">Next</div>
+                                            </a>
+                                        </div>
+                                        <hr />
+                                        <div class="day-headers">
+                                            <div class="day header">Mon</div>
+                                            <div class="day header">Tue</div>
+                                            <div class="day header">Wed</div>
+                                            <div class="day header">Thu</div>
+                                            <div class="day header">Fri</div>
+                                            <div class="day header">Sat</div>
+                                            <div class="day header">Sun</div>
+                                        </div>
+                                        <div class="days" data-group="days"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="time-slot-wrap" data-aos="fade-in">
+                                        <h2 id="SelectedDate">Saturday, August 08</h2>
+                                        <h3>Available Time</h3>
+                                        <ul class="time-slot-list">
+                                            <li data-aos="fade-in">No Available Time For This Date.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="time-slot-error" style="display: none;">
+                                        <span>Please Select Time slot</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="booking-form-wrap" data-aos="fade-right">
+                                        <h2 class="booking-form-title">Enter Details</h2>
+                                        <form class="book-session-form">
+                                            <fieldset class="">
+                                                <div class="form-group">
+                                                    <!-- <label class="">Name <span class="">*</span></label> -->
+                                                    <img src="../assets/icons/contact/user.svg" alt="">
+                                                    <input maxlength="155" id="webinar_inner_name" required="required"
+                                                        type="text" class="form-control" placeholder="Name">
+                                                    <label class="form-label" for="webinar_inner_name">Name
+                                                        <span class="text-danger">*</span>
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <img src="../assets/icons/contact/at.svg" alt="">
+                                                    <input maxlength="255" required="required" id="webinar_inner_mail"
+                                                        type="email" class="form-control" placeholder="Email">
+                                                    <label class="form-label" for="webinar_inner_mail">Email<span
+                                                            class="text-danger">*</span>
+                                                    </label>
+                                                </div>
+                                                <div class="form-group">
+                                                    <!-- <label class="form-label" for="webinar_inner_number">Mobile Number<span class="text-danger">*</span></label> -->
+                                                    <!-- <input maxlength="10" max="10" required="required" type="number" class="form-control"> -->
+                                                    <input id="phone" maxlength="10" minlength="10" required="required"
+                                                        placeholder="Mobile Number" type="tel" class="form-control">
+                                                    <!-- <span id="valid-msg" class="hide">Valid</span> -->
+                                                    <!-- <span id="error-msg" class="hide">Invalid number</span> -->
+                                                </div>
+                                                <div class="form-group">
+                                                    <img src="../assets/icons/contact/mail.svg" alt="">
+                                                    <textarea maxlength="256" id="webinar_inner_query" class="form-control"
+                                                        placeholder="Queries"></textarea>
+                                                    <label class="form-label" for="webinar_inner_query">Quaries<span
+                                                            class="text-danger">*</span>
+                                                    </label>
+                                                </div>
+                                            </fieldset>
+        
+                                            <button type="submit" class="confirm-time-btn">Confirm</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
